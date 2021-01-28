@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="10sp"
+        android:id="@+id/turn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/turn"
+        android:paddingLeft="20sp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        app:fontFamily="cursive" />
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridView"
+        android:padding="5dp"
+        android:numColumns="3"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="5dp"
+        android:gravity="start"
+        android:layout_below="@+id/turn"
+        android:layout_marginTop="50sp"
+        ></GridView>
+
+</RelativeLayout>

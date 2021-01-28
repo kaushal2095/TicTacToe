@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tic tac toe</string>
+    <string name="turn">Current Turn :</string>
+    <string name="dialog_message">Congruations....</string>
+    <string name="dialog_message2">X  won game...</string>
+    <string name="ok">ok</string>
+</resources>
